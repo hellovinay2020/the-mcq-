@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(rgb(247, 150, 15) , rgb(245, 245, 246), rgb(19, 144, 8));
+}
+
+#quiz-container, #result-container {
+    background-color: #893115;
+    padding: 60px;
+    box-shadow: 0 0 42px rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    width: 389px;
+    text-align: center;
+}
+
+#question {
+    margin-bottom: 20px;
+}
+
+h2#question {
+    font-family: inherit;
+    color: white;
+    font-size: x-large;
+}
+
+#answers {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    color: red;
+}
+
+#answers li {
+    background-color: #2d4811;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+   border: solid;
+    cursor: pointer;
+    border-radius: 100px 0px 100px;
+}
+
+#answers li:hover {
+    background-color: #0056b3;
+}
+marquee.blink {
+    font-family: cursive;
+    color: yellow;
+}
+
+.blink:hover{
+    background-color: lightslategray;
+    color: white;
+    transition: all 0.30s ;
+    border-radius: 20px;
+}
+#next-button, #restart-button {
+    background-color: #01183e;
+    color: white;
+    font-family: cursive;
+    padding: 12px 20px;
+    border-radius: 0px 20px;
+    cursor: pointer;
+    border: solid;
+}
+
+#next-button:hover, #restart-button:hover {
+    background-color: #218838;
+}
+h2#score {
+    color: wheat;
+    font-weight: 800;
+}
